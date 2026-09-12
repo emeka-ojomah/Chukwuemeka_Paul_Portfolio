@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Ojomah Chukwuemeka Paul</title>
+<meta name="description" content="Get in touch with Ojomah Chukwuemeka Paul for frontend development work.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%233ddc97%22>&lt;/&gt;</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;650&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="tab-bar">
+  <div class="tab-bar-inner">
+    <div class="editor-dots"><span></span><span></span><span></span></div>
+    <div class="logo-mark">&lt;<span>Chukwuemeka Paul</span>/&gt;</div>
+    <ul class="tabs" id="tabs">
+      <li><a href="index.html" class="tab"><span class="tab-dot"></span>home.jsx</a></li>
+      <li><a href="about.html" class="tab"><span class="tab-dot"></span>about.jsx</a></li>
+      <li><a href="projects.html" class="tab"><span class="tab-dot"></span>projects.jsx</a></li>
+      <li><a href="services.html" class="tab"><span class="tab-dot"></span>services.jsx</a></li>
+      <li><a href="contact.html" class="tab active"><span class="tab-dot"></span>contact.jsx</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</nav>
+
+<header class="container page-head reveal" style="padding:15px;">
+  <h1>Let's build something</h1>
+  <p style="max-width:640px;">Reach out on whichever platform is easiest for you, or send a message directly below.</p>
+</header>
+
+<section class="container">
+  <div class="contact-grid">
+
+    <div class="reveal">
+      <h2>Find me here</h2>
+      <p>Every icon below is a real link just tap or click to reach out.</p>
+      <div class="social-grid">
+        <!-- Replace href="#" with mailto:youremail@gmail.com -->
+        <a class="social-card" href="mailto:chukwuemekaojomah@gmail.com" aria-label="Email me on Gmail">
+          <span class="icon-circle gmail"><i class="fa-solid fa-envelope"></i></span>
+          <span><strong>Gmail</strong><small>chukwuemekaojomah@gmail.com</small></span>
+        </a>
+        <!-- Replace href="#" with https://wa.me/YOURNUMBER -->
+        <a class="social-card" href="https://wa.me/08074926898" aria-label="Message me on WhatsApp" target="_blank" rel="noopener">
+          <span class="icon-circle whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+          <span><strong>WhatsApp</strong><small>Quick chat</small></span>
+        </a>
+        <!-- Replace href="#" with your TikTok profile URL -->
+        <a class="social-card" href="https://tiktok.com/@chukwuemeka_paul" aria-label="Follow on TikTok" target="_blank" rel="noopener">
+          <span class="icon-circle tiktok"><i class="fa-brands fa-tiktok"></i></span>
+          <span><strong>TikTok</strong><small>@chukwuemeka_paul</small></span>
+        </a>
+        <!-- Replace href="#" with your Instagram profile URL -->
+        <!-- <a class="social-card" href="#" aria-label="Follow on Instagram" target="_blank" rel="noopener">
+          <span class="icon-circle instagram"><i class="fa-brands fa-instagram"></i></span>
+          <span><strong>Instagram</strong><small>@yourhandle</small></span>
+        </a>
+         Replace href="#" with your Facebook profile URL 
+        <a class="social-card" href="#" aria-label="Follow on Facebook" target="_blank" rel="noopener">
+          <span class="icon-circle facebook"><i class="fa-brands fa-facebook"></i></span>
+          <span><strong>Facebook</strong><small>Follow / Message</small></span>
+        </a> -->
+      </div>
+    </div>
+
+    <div class="reveal" style="padding:15px;">
+      <h2>Or send a message</h2>
+      <form class="form-panel" id="contactForm">
+        <div class="field">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" required placeholder="Your name">
+        </div>
+        <div class="field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" required placeholder="you@example.com">
+        </div>
+        <div class="field">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" required placeholder="Tell me a bit about your project..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+          <i class="fa-regular fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <div class="prompt">$ echo "built by Chukwuemeka Paul" © <span data-year></span></div>
+    <div class="footer-social">
+      <a href="mailto:chukwuemekaojomah@gmail.com" aria-label="Gmail"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://wa.me/08074926898" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://tiktok.com/@chukwuemeka_paul" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      <!-- <a href="https://instagram.com/yourhandle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://facebook.com/yourhandle" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a> -->
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
