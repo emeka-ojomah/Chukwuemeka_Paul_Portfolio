@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ojomah Chukwuemeka Paul —Frontend Developer</title>
+<meta name="description" content="Frontend developer portfolio — building fast, responsive, and thoughtfully designed interfaces.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%233ddc97%22>&lt;/&gt;</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;650&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="tab-bar">
+  <div class="tab-bar-inner">
+    <div class="editor-dots"><span></span><span></span><span></span></div>
+    <div class="logo-mark">&lt;<span>Chukwuemeka Paul</span>/&gt;</div>
+    <ul class="tabs" id="tabs">
+      <li><a href="index.html" class="tab active"><span class="tab-dot"></span>home.jsx</a></li>
+      <li><a href="about.html" class="tab"><span class="tab-dot"></span>about.jsx</a></li>
+      <li><a href="projects.html" class="tab"><span class="tab-dot"></span>projects.jsx</a></li>
+      <li><a href="services.html" class="tab"><span class="tab-dot"></span>services.jsx</a></li>
+      <li><a href="contact.html" class="tab"><span class="tab-dot"></span>contact.jsx</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</nav>
+
+<header class="container hero" style="padding:15px;">
+  <div class="hero-copy reveal">
+    <div class="code-panel">
+      <div class="code-panel-head">
+        <span class="editor-dots" style="margin:0;"><span></span><span></span><span></span></span>
+        developer.jsx
+        <button class="copy-btn" type="button" aria-label="Copy code"><i class="fa-regular fa-copy"></i></button>
+      </div>
+      <pre><code><span class="tok-kw">const</span> <span class="tok-fn">Developer</span> = {"{"}
+  <span class="tok-prop">name</span>: <span class="tok-str">"Chukwuemeka Paul"</span>,
+  <span class="tok-prop">role</span>: <span class="tok-str">"Frontend Developer"</span>,
+  <span class="tok-prop">focus</span>: [<span class="tok-str">"React"</span>, <span class="tok-str">"Next.js"</span>, <span class="tok-str">"UI Engineering"</span>],
+  <span class="tok-prop">status</span>: <span class="tok-str">"Available for freelance work"</span>,
+  <span class="tok-com"> builds interfaces people enjoy using</span>
+{"}"};</code></pre>
+    </div>
+  </div>
+
+  <div class="hero-visual reveal">
+    <div class="avatar-ring">
+      <div class="avatar-inner">
+        <img src="images.png">
+      </div>
+    </div>
+    <div class="name-block">
+      <div class="status-chip"><span class="pulse"></span>Open to new projects</div>
+      <h1>Chukwuemeka Paul</h1>
+      <div class="role-line">Frontend Developer &amp; UI Engineer</div>
+      <p style="max-width:420px;" >I design and build fast, responsive interfaces, from landing pages to full product UIs with clean code and an eye for detail.</p>
+      <div class="btn-row" style="justify-content:center;">
+        <a href="projects.html" class="btn btn-primary"><i class="fa-solid fa-diagram-project"></i> View Projects</a>
+        <a href="contact.html" class="btn btn-ghost"><i class="fa-regular fa-paper-plane"></i> Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="container">
+  <div class="section-head reveal">
+    <h2>What I work with</h2>
+    <p>The tools I reach for most, kept sharp through daily use.</p>
+  </div>
+  <div class="json-block reveal">
+    <button class="copy-btn" type="button" aria-label="Copy code"><i class="fa-regular fa-copy"></i></button>
+    <div><span class="brace">{"{"}</span></div>
+    <div style="padding-left:22px;">
+      <span class="k">"languages"</span>: [<span class="s">"JavaScript"</span>, <span class="s">"TypeScript"</span>, <span class="s">"HTML"</span>, <span class="s">"CSS"</span>],<br>
+      <span class="k">"frameworks"</span>: [<span class="s">"React"</span>, <span class="s">"Next.js"</span>, <span class="s">"Vue"</span>],<br>
+      <span class="k">"styling"</span>: [<span class="s">"Tailwind CSS"</span>, <span class="s">"SASS"</span>, <span class="s">"Styled Components"</span>],<br>
+      <span class="k">"backend_friends"</span>: [<span class="s">"Supabase"</span>, <span class="s">"Firebase"</span>, <span class="s">"REST APIs"</span>],<br>
+      <span class="k">"tools"</span>: [<span class="s">"Git"</span>, <span class="s">"Figma"</span>, <span class="s">"Vite"</span>],<br>
+      <span class="k">"years_experience"</span>: <span class="n">2</span>
+    </div>
+    <div><span class="brace">{"}"}</span></div>
+  </div>
+</section>
+
+<section class="container" style="padding:15px;">
+  <div class="section-head reveal">
+    <h2>How I like to build</h2>
+  </div>
+  <div class="reason-list">
+    <div class="reason-row reveal">
+      <div class="r-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+      <div>
+        <h3>Responsive by default</h3>
+        <p>Every layout is built mobile-first and tested across real breakpoints, not just resized in a browser.</p>
+      </div>
+    </div>
+    <div class="reason-row reveal">
+      <div class="r-icon"><i class="fa-solid fa-bolt"></i></div>
+      <div>
+        <h3>Performance-minded</h3>
+        <p>Clean, lightweight code with attention to load speed, accessibility, and Core Web Vitals.</p>
+      </div>
+    </div>
+    <div class="reason-row reveal">
+      <div class="r-icon"><i class="fa-solid fa-comments"></i></div>
+      <div>
+        <h3>Clear communication</h3>
+        <p>Regular updates, honest timelines, and no jargon  you always know where your project stands.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+  "What clients say" section is hidden until there are real testimonials to
+  show — an empty heading with nothing under it reads as a bug, not a
+  work-in-progress. Uncomment and fill in real quotes when ready:
+
+  <section class="container">
+    <div class="section-head reveal">
+      <h2>What clients say</h2>
+    </div>
+    <div class="grid grid-2">
+      <div class="terminal reveal">
+        <p>$ cat testimonial_01.txt</p>
+        <p>"..." <span class="who">— client name, company</span></p>
+      </div>
+      <div class="terminal reveal">
+        <p>$ cat testimonial_02.txt</p>
+        <p>"..." <span class="who">— client name, company</span></p>
+      </div>
+    </div>
+  </section>
+-->
+
+<footer>
+  <div class="container footer-inner">
+    <div class="prompt">$ echo "built by Chukwuemeka Paul" © <span data-year></span></div>
+    <div class="footer-social">
+      <a href="contact.html" aria-label="Gmail"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://wa.me/08074926898" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://tiktok.com/@chukwuemeka_paul" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      <!-- <a href="https://instagram.com/yourhandle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://facebook.com/yourhandle" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a> -->
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

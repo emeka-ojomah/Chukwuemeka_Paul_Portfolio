@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Ojomah Chukwuemeka Paul</title>
+<meta name="description" content="Selected frontend projects by Ojomah Chukwuemeka Paul — click any project to view it live.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%233ddc97%22>&lt;/&gt;</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;650&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="tab-bar">
+  <div class="tab-bar-inner">
+    <div class="editor-dots"><span></span><span></span><span></span></div>
+    <div class="logo-mark">&lt;<span>Chukwuemeka Paul</span>/&gt;</div>
+    <ul class="tabs" id="tabs">
+      <li><a href="index.html" class="tab"><span class="tab-dot"></span>home.jsx</a></li>
+      <li><a href="about.html" class="tab"><span class="tab-dot"></span>about.jsx</a></li>
+      <li><a href="projects.html" class="tab active"><span class="tab-dot"></span>projects.jsx</a></li>
+      <li><a href="services.html" class="tab"><span class="tab-dot"></span>services.jsx</a></li>
+      <li><a href="contact.html" class="tab"><span class="tab-dot"></span>contact.jsx</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</nav>
+
+<header class="container page-head reveal" style="padding:15px;">
+  <h1>Selected work</h1>
+  <p style="max-width:640px;">A few projects I've built. Click any slide to open the live site in a new tab.</p>
+</header>
+
+<section class="container">
+  <div class="filter-bar reveal" role="group" aria-label="Filter projects by technology">
+    <button class="filter-btn active" data-filter="all" type="button">All</button>
+    <button class="filter-btn" data-filter="react" type="button">React</button>
+    <button class="filter-btn" data-filter="nextjs" type="button">Next.js</button>
+    <button class="filter-btn" data-filter="supabase" type="button">Supabase</button>
+    <button class="filter-btn" data-filter="tailwind" type="button">Tailwind CSS</button>
+  </div>
+
+  <div class="carousel reveal" tabindex="0" aria-label="Project carousel">
+    <div class="carousel-viewport">
+      <div class="carousel-track">
+
+        <!-- SLIDE 1 — replace data-url with the live project link -->
+        <a class="slide" data-url="https://example.com/project-one" data-tech="react nextjs supabase tailwind" aria-label="Open Anime Streaming Platform project">
+          <div class="slide-media slide-media--anime" role="img" aria-label="Anime streaming platform interface preview">
+            <div class="slide-media-chrome"><span></span><span></span><span></span></div>
+            <div class="slide-media-icon"><i class="fa-solid fa-clapperboard"></i></div>
+          </div>
+          <div class="slide-overlay">
+            <span class="visit"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit live site</span>
+            <h3>Anime Streaming Platform</h3>
+            <p>Full-stack Next.js &amp; Supabase app with a custom late-night broadcast aesthetic.</p>
+          </div>
+        </a>
+
+        <!-- SLIDE 2 -->
+        <a class="slide" data-url="https://example.com/project-two" data-tech="react tailwind" aria-label="Open Client Business Site project">
+          <div class="slide-media slide-media--business" role="img" aria-label="Local business website preview">
+            <div class="slide-media-chrome"><span></span><span></span><span></span></div>
+            <div class="slide-media-icon"><i class="fa-solid fa-shop"></i></div>
+          </div>
+          <div class="slide-overlay">
+            <span class="visit"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit live site</span>
+            <h3>Local Business Website</h3>
+            <p>A responsive marketing site built to convert visits into enquiries for a small business.</p>
+          </div>
+        </a>
+
+        <!-- SLIDE 3 -->
+        <a class="slide" data-url="https://example.com/project-three" data-tech="react tailwind" aria-label="Open Portfolio Dashboard project">
+          <div class="slide-media slide-media--dashboard" role="img" aria-label="Web app dashboard preview">
+            <div class="slide-media-chrome"><span></span><span></span><span></span></div>
+            <div class="slide-media-icon"><i class="fa-solid fa-gauge-high"></i></div>
+          </div>
+          <div class="slide-overlay">
+            <span class="visit"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit live site</span>
+            <h3>Product Dashboard UI</h3>
+            <p>A data-dense dashboard interface focused on clarity and fast scanning.</p>
+          </div>
+        </a>
+
+        <!-- SLIDE 4 -->
+        <a class="slide" data-url="https://example.com/project-four" data-tech="react tailwind" aria-label="Open Landing Page project">
+          <div class="slide-media slide-media--landing" role="img" aria-label="Landing page design preview">
+            <div class="slide-media-chrome"><span></span><span></span><span></span></div>
+            <div class="slide-media-icon"><i class="fa-solid fa-rocket"></i></div>
+          </div>
+          <div class="slide-overlay">
+            <span class="visit"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit live site</span>
+            <h3>Product Launch Landing Page</h3>
+            <p>A single-page site built for speed and a clear conversion path.</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+    <button class="carousel-arrow prev" aria-label="Previous project"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="carousel-arrow next" aria-label="Next project"><i class="fa-solid fa-chevron-right"></i></button>
+    <div class="carousel-dots"></div>
+  </div>
+
+  <!-- <p class="other-projects-note">// add more slides in projects.html — copy a &lt;a class="slide"&gt; block and update the media, text, data-url, and data-tech</p> -->
+  <!-- Each slide currently shows a themed placeholder (.slide-media) instead of a
+       real screenshot. To swap one in, replace the .slide-media div with:
+       <img src="your-screenshot.jpg" alt="..."> and remove the placeholder classes. -->
+</section>
+
+<section class="container" style="padding:15px;">
+  <div class="section-head reveal">
+    <h2>Tech used across these builds</h2>
+  </div>
+  <div class="tech-panel reveal">
+    <div class="tech-row">
+      <span class="tech-label">frontend</span>
+      <div class="tech-items"><span class="tag">React</span><span class="tag">Next.js</span><span class="tag">TypeScript</span></div>
+    </div>
+    <div class="tech-row">
+      <span class="tech-label">styling</span>
+      <div class="tech-items"><span class="tag">Tailwind CSS</span><span class="tag">Responsive layouts</span></div>
+    </div>
+    <div class="tech-row">
+      <span class="tech-label">backend</span>
+      <div class="tech-items"><span class="tag">Supabase</span><span class="tag">Postgres</span><span class="tag">Row-level security</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <div class="prompt">$ echo "built by Chukwuemeka Paul" © <span data-year></span></div>
+    <div class="footer-social">
+      <a href="contact.html" aria-label="Gmail"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://wa.me/08074926898" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://tiktok.com/@chukwuemeka_paul" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      <!-- <a href="https://instagram.com/yourhandle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://facebook.com/yourhandle" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a> -->
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
